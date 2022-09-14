@@ -4,7 +4,8 @@
   "description": "Learning NPM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "node": "node src/index.js && node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/octenrique/Platzi-New-NPM/issues"
   },
-  "homepage": "https://github.com/octenrique/Platzi-New-NPM#readme"
+  "homepage": "https://github.com/octenrique/Platzi-New-NPM#readme",
+  "dependencies": {
+    "json-server": "^0.15.0",
+    "moment": "^2.29.4",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1"
+  }
 }
